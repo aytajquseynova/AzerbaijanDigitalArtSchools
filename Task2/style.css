@@ -4,51 +4,44 @@
     box-sizing:border-box;
 }
 body{
-    background-color:rgb(0, 18, 57);
+    background-color: #0a0c1b;
 }
 .business-card{
-    padding:10px;
-}
-.container-card{
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius:5px;
 }
-img{
-    width:100%;
-    height:100%;
+.container-card{
+    display:flex;
+    width:800px;
 }
 .container-card-text{
+    background-color: rgb(28,25,56);
     flex:1;
-    background-color:rgb(3, 2, 15);
-    color:White;
-
+    color:#f8faf9;
+    padding:25px;
 }
 .container-card-image{
-   flex:1;
+    flex:1;
 }
-.heading{
-    margin-bottom:10px;
-}
+img{
+     width:100%;
+     height:100%;
+    }
 .heading span{
-    color:rgb(170, 141, 198);
+    color:rgb(151,93,193);
+}
+.txt{
+    color:#9492aa;
+    margin-bottom:15px;
+}
+.heading, .txt{
+    margin-bottom:15px;
 }
 .card-statics{
     display:flex;
-    justify-content: space-around;
-}
-h2{
-    margin-bottom:15px;
-}
-.txt{
-    margin-bottom:30px;
-}
-.card-statics{
-    margin:25px 0px;
-}
-.card-statics-number{
-    margin-bottom:5px;
+    gap:50px;
+    padding-top:10px;
 }
