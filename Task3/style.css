@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    /* font-family:'Montserrat', sans-serif; */
+}
+.container{
+    width:100%;
+    height:100vh;
+}
+header{
+    background-color: #eef1fc;
+}
+/* body{
+    font-family:'Montserrat', sans-serif;
+} */
+/* Navbar starts */
+nav{
+    padding:25px;
+    display:flex;
+    justify-content: space-between;
+}
+.navbar--menu ul{
+    display:Flex;
+    /* justify-content: space-around; */
+}
+.logo{
+    color:#000000;
+    font-family:'Montserrat', sans-serif;
+    font-weight:900;
+}
+.navbar--menu ul li {
+    list-style: none;
+    color:#13274F;
+}
+.navbar--menu ul li a{
+    text-decoration:none;
+    font-weight: 600;
+    font-size:16px;
+    line-height: 19.5px;
+    margin-left:8px;
+}
+.navbar--menu--item:nth-child(1){
+    opacity:1;
+    position:relative;
+}
+.navbar--menu--item:nth-child(1)::after{
+    content:"";
+    width:60px;
+    height:2px;
+    position:absolute;
+    left:27%; 
+    bottom:-5px;
+    background-color:#597FE2;
+}
+.navbar--menu--item{
+    opacity:0.6;
+}
+.navbar--menu--item:hover{
+    border-bottom:2px solid #597FE2;
+}
+/* Navbar ends */
+/* Container info starts */
+.container-info{
+    text-align: center;
+    margin-bottom:20px;
+    
+}
+.container-info h1{
+    font-size:36px;
+    line-height:51.08px;
+}
+.container-info p{
+    font-size:20px;
+    line-height:31.68px;
+}
+/* Container info ends */
+/* Cards starts */
+.cards{
+    display:flex;
+    justify-content: space-around;
+    
+}
+.cards-item{
+    background-color: #ffffff;
+    border-radius:5px;
+    padding:40px; 
+    margin:10px;
+    width:20%;
+    display: flex;   
+    flex-direction: column;         
+   justify-content: center;            
+    align-items: center;
+}
+.cards-item:nth-child(2){
+    width:25%;
+    box-shadow: 0 4px 2px -2px #7d849f;
+}
+button{
+    border:4px solid #EEF1FC;
+    border-radius:5px;
+    padding:10px;
+    margin-top:50px;
+    background-color: white;
+    color:#7d849f;
+}
+
+.for-windows{
+    background-color: #597fe2;
+    border:4px solid #597fe2;
+    color:white;
+}
+.for-windows, .for-linux{
+    margin-bottom:10px;
+}
+/* Cards ends */
+/* About starts */
+section{
+    background-color: #e2e7fa;
+}
+.about{
+    display:flex;
+    gap:40px;
+}
+.about-items{
+    padding:35px; 
+}
+.about-items h4{
+    margin-bottom:10px;
+}
+/*About ends  */
+/* Footer starts */
+.footer p{
+    text-align: center;
+    color:#13274F;
+    opacity: 0.6;
+}
