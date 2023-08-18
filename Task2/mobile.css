@@ -1,0 +1,20 @@
+@media(max-width:500px){
+    body{
+        font-size:1rem;
+    }
+    .container-card{
+         display:flex;
+         flex-direction: column-reverse;
+         flex-wrap:wrap;
+         padding:40px;
+         /* height:100vh; */
+    }
+    .container-card-text{
+        width:100%;
+        padding:40px;
+    }
+
+    .container-card-image{
+        width:100%;
+    }
+}    

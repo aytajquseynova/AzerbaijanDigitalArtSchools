@@ -1,0 +1,9 @@
+.btn{
+    display:inline-block;
+    cursor:pointer;
+    font-family: inherit;
+}
+.btn__blue{
+    background: var(--blue);
+    color:var(--white);
+}
