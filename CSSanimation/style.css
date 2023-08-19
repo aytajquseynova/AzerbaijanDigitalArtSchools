@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+div{
+    width:7rem;
+    height: 7rem;
+    color:white;
+    font-size:2rem;
+    background-color: seagreen;
+    position: absolute;
+    animation: myAnimation  7000ms ease-in;
+
+}
+@keyframes myAnimation{
+    /* from{
+        left:0;
+    }
+    to{
+        left:20rem;
+    } */
+    0%{
+        left:0;
+        background: #000;
+    }
+    20%{
+        left:20rem;
+        background: white;
+        color:#000
+    }
+    40%{
+        bottom:15rem;
+        background: seagreen;
+        color:ghostwhite;
+    }
+    80%{
+        top:25rem;
+        background: skyblue;
+        color:darkcyan;
+    }
+    100%{
+        left:0;
+        top:0;
+    }
+}
