@@ -13,15 +13,12 @@ body{
     gap:10px;
     grid-template-columns: 0.5fr 2fr 0.5fr;
     grid-template-rows: 5rem 20rem 5rem;
-    /* grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 50px auto 50px; */
 }
 .header,
 .nav,
 .article,
 .aside,
 .footer{
-    /* border:1px solid black; */
     background: #fcd800;
     padding:2rem;
 }
