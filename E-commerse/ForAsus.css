@@ -1,0 +1,36 @@
+@media (max-width:1280px) {
+    body{
+        font-weight: 400;
+        /* margin-right: 0; */
+    }
+    .top-brand__images, .blog__posts--products {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    .header__txt{
+        margin-left: 22.7rem;
+    }
+    .header_img_img {
+        display:none
+    }
+    .new__arrival__images{
+        margin-left: 22.7rem;
+        margin-right: 22.7rem;
+        grid-template-columns: 1fr 1fr;
+        gap:5rem;
+    }
+    /* .our-speciality__content{
+        margin-left: 2.7rem;
+    } */
+    .our-speciality{
+        width:128rem;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .our-speciality__content {
+        flex-wrap: wrap;
+        gap: 5rem;
+        margin-left: 0;
+        margin-right: 0;
+}
+}
