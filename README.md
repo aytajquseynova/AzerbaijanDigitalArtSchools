@@ -23,3 +23,6 @@ https://github.com/aytajquseynova/AzerbaijanDigitalArtSchools/tree/main/Grid/Gri
 ### Task 7 
 #### BMI Calculator
 https://github.com/aytajquseynova/AzerbaijanDigitalArtSchools/tree/main/BMI-Calculator
+### Algoritmic tasks
+#### Edilən
+https://github.com/aytajquseynova/AzerbaijanDigitalArtSchools/tree/main/JavascriptChallenge
