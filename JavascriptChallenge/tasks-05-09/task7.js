@@ -1,5 +1,5 @@
 let arr = [-5, 6, -7, 8, -9 , 10, -11];
-let result = arr.filter((item, index) => {
+let result = arr.filter((item) => {
     return item <0;
 });
 console.log(result);
