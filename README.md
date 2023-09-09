@@ -9,7 +9,7 @@ https://www.figma.com/file/2n8DmUhb6EzbsZMHi48tgI/day_955?type=design&node-id=0-
 #### Verilən
 https://www.google.com/search?sca_esv=558130159&sxsrf=AB5stBizDgjwPvN4F2lcGk7k8qki_Gc5vQ:1692369824849&q=grid+layout+example&tbm=isch&source=lnms&sa=X&sqi=2&ved=2ahUKEwitg_TxuOaAAxUzh_0HHReqDSMQ0pQJegQIDBAB&biw=1536&bih=739&dpr=1.25#imgrc=LXAWfUDnv9DFOM
 #### Edilən
--- https://github.com/aytajquseynova/AzerbaijanDigitalArtSchools/tree/main/Grid/Grid-Layout-task1
+-- [https://github.com/aytajquseynova/AzerbaijanDigitalArtSchools/tree/main/Grid/Grid-Layout-task1](https://github.com/aytajquseynova/AzerbaijanDigitalArtSchools/tree/main/HTML-CSS/Grid/Grid-Layout-task1)
 ### Task 5 - Grid Layout 2
 #### Verilən
 https://www.google.com/search?sca_esv=558130159&sxsrf=AB5stBizDgjwPvN4F2lcGk7k8qki_Gc5vQ:1692369824849&q=grid+layout+example&tbm=isch&source=lnms&sa=X&sqi=2&ved=2ahUKEwitg_TxuOaAAxUzh_0HHReqDSMQ0pQJegQIDBAB&biw=1536&bih=739&dpr=1.25#imgrc=cqAa-69S4tQk3M
