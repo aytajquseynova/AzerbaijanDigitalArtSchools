@@ -51,21 +51,49 @@
 // input[0].value = "hellooo";
 // console.log(input);
 
-let div = document.createElement('div');
-div.textContent ="Salam, dunya";
-console.log(div);
+// let div = document.createElement('div');
+// div.textContent ="Salam, dunya";
+// console.log(div);
 
-//bodye elave etmek
-const body = document.querySelector("body");
-// body.prepend(div); // bodyden hemen sonraya elave edilir
-// body.before(div); // bodyden evvele elave edir
+// //bodye elave etmek
+// const body = document.querySelector("body");
+// // body.prepend(div); // bodyden hemen sonraya elave edilir
+// // body.before(div); // bodyden evvele elave edir
 
-// const listItem = document.querySelector('li');
-const li = document.createElement('li');
-li.textContent = "Contact";
-// listItem.after(li);
+// // const listItem = document.querySelector('li');
+// const li = document.createElement('li');
+// li.textContent = "Contact";
+// // listItem.after(li);
 
-// li.remove();
+// // li.remove();
 
-let ul = document.querySelector("ul");
-ul.insertAdjacentHTML("afterend", "<li>text</li>");
+// let ul = document.querySelector("ul");
+// const menues = ["Home", "About", "Contact"];
+
+// let ul = document.createElement("ul");
+// let body = document.querySelector("body");
+
+
+// menues.map((el)=>{
+//     let li = document.createElement("li");
+//     li.textContent = el;
+//     ul.append(li); 
+// });
+// body.append(ul);
+
+
+// ul.style.display= "flex";
+// ul.style.gap = "20px";
+// ul.style.backgroundColor= "seagreen";
+// ul.style.color ="white";
+// ul.style.fontSize ="20px";
+
+// console.log(getComputedStyle(ul).getPropertyValue("display"));
+// document.documentElement.style.setProperty("--color-red", "blue");
+
+// ul.insertAdjacentHTML("afterend", "<li>text</li>");
+
+// let img = document.querySelector("img");
+// img.src = "test.png"
+// img.setAttribute('ups', '123');
+// console.log(img.getAttribute('ups'));
