@@ -14,7 +14,7 @@ const students = [{
 let index = 0;
 let sumOfGrades = 0;
 while (index < students.length) {
-    sumOfGrades += students[index].grade
+    sumOfGrades += students[index]["grade"];
     index++;
 }
 let avarage = sumOfGrades / students.length;

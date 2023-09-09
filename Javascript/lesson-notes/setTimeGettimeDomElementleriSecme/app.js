@@ -6,20 +6,20 @@
 //     console.log("hello");
 // }, 3000) // 3saniyeden sonra ekrana cixir
 
-// let count = 0;
-// let interval = setInterval(function(){
-//     // console.log('hello');
-//     count +=1;
-//     console.log(count);
-//     if(count ===3){
-//         clearTimeout(timeOut);
-//     }
-// },1000);
+let count = 0;
+let interval = setInterval(function(){
+    // console.log('hello');
+    count +=1;
+    console.log(count);
+    if(count ===3){
+        clearTimeout(timeOut);
+    }
+},1000);
 
-// var timeOut = setTimeout(function(){
-//     console.log("hello");
-//     // console.log(clearInterval(interval));
-// },5000);  
+var timeOut = setTimeout(function(){
+    console.log("hello");
+    // console.log(clearInterval(interval));
+},5000);  
 
 // console.log(document.documentElement);
 // console.log(document.body);
