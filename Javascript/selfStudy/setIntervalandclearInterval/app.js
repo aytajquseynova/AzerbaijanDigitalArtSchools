@@ -8,19 +8,19 @@ let button1Div = document.createElement('div');
 let button2Div = document.createElement('div');
 
 //Appends
-generalBox.append(buttonDiv);
-generalBox.append(div);
-body.append(generalBox);
-div.append(h1);
-buttonDiv.append(button1Div);
-buttonDiv.append(button2Div);
+generalBox.prepend(buttonDiv);
+generalBox.prepend(div);
+body.prepend(generalBox);
+div.prepend(h1);
+buttonDiv.prepend(button1Div);
+buttonDiv.prepend(button2Div);
 
 //Styles
 h1.style.fontSize = "32px";
 h1.className = "count";
 
 generalBox.style.display = "flex";
-generalBox.style.flexDirection ="column-reverse";
+generalBox.style.flexDirection ="column";
 generalBox.style.gap = "20px";
 
 div.style.background = "#white";
@@ -39,7 +39,7 @@ buttonDiv.style.justifyContent="center";
 
 //Button1 styles
 let button1 = document.createElement("button");
-button1Div.append(button1);
+button1Div.prepend(button1);
 button1.textContent = "Start";
 button1.className = "start";
 button1.style.padding = "8px 32px";
@@ -49,7 +49,7 @@ button1.style.cursor="pointer";
 
 //Button2 styles
 let button2 = document.createElement("button");
-button2Div.append(button2);
+button2Div.prepend(button2);
 button2.textContent = "Stop";
 button2.className = "stop";
 button2.style.padding = "8px 32px";
