@@ -12,8 +12,8 @@ generalBox.prepend(buttonDiv);
 generalBox.prepend(div);
 body.prepend(generalBox);
 div.prepend(h1);
-buttonDiv.prepend(button1Div);
-buttonDiv.prepend(button2Div);
+buttonDiv.append(button1Div);
+buttonDiv.append(button2Div);
 
 //Styles
 h1.style.fontSize = "32px";
@@ -36,6 +36,7 @@ buttonDiv.style.margin = "0 auto";
 buttonDiv.style.display ="flex";
 buttonDiv.style.gap ="30px";
 buttonDiv.style.justifyContent="center";
+buttonDiv.style.fontSize ="32px";
 
 //Button1 styles
 let button1 = document.createElement("button");
@@ -46,6 +47,7 @@ button1.style.padding = "8px 32px";
 button1.style.backgroundColor ="seagreen";
 button1.style.color = "bisque";
 button1.style.cursor="pointer";
+button1.style.fontSize="24px";
 
 //Button2 styles
 let button2 = document.createElement("button");
@@ -56,7 +58,7 @@ button2.style.padding = "8px 32px";
 button2.style.backgroundColor = "seagreen";
 button2.style.color = "bisque";
 button2.style.cursor = "pointer";
-
+button2.style.fontSize = "24px";
 
 // setInterval(function, ms)
 // 1000 ms = 1sec
