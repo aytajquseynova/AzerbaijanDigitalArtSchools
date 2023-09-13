@@ -1,0 +1,27 @@
+.container{
+    padding:20px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    background: blue;
+    padding:15px;
+    margin-bottom: 10px;
+}
+.main{
+    background: blue;
+    margin-bottom: 10px;
+}
+.main-content{
+    display:flex;
+    justify-content: space-between;
+}
+.main-content-item{
+    padding:10px;
+    margin:10px;
+}
+.footer{
+    background: blue;
+    padding:20px;
+    text-align: center;
+}
