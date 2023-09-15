@@ -1,0 +1,28 @@
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    color:green;
+}
+input{
+    
+    margin:0 auto;
+    width:100%;
+    padding:15px;
+    margin-bottom:10px;
+
+}
+.name{
+    width:40%;
+}
+.degree, .profession{
+    width:30%;
+}
+table{
+    /* border:1px  solid black; */
+    margin:0 auto;
+}
+tr, th, td{
+    text-align: center;
+    padding:15px;
+    border: 1px solid black;
+}

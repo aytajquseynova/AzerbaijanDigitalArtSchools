@@ -1,62 +1,54 @@
-.container{
-    padding:25px;
-}
 .header{
     display:flex;
     justify-content: space-between;
-    background: slateblue;
-    margin-bottom: 15px;
+    padding:20px;
+    background-color: #0398fc;
+    color:white;
+    border:2px solid #9793bd;
+    margin-bottom: 10px;
 }
 .logo{
-    background: blue;
+    text-align: center;
+}
+.search-area{
+    margin-top: 10px;
+}
+.search-area input, button{
+   padding:15px;
+   cursor:pointer;
+}
+.send{
+    background-color: #0398fc;
+    color:white;
+    border:2px solid #9793bd;
+    padding:15px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.send input{
+    padding:15px;
+}
+.send textarea{
+    padding:8px;
+    text-align: center;
+}
+.send button{
     width:100px;
     text-align: center;
-    padding-top:20px;
+    cursor: pointer;
 }
-.search-box{
+.itemsBox{
+    background: #0398fc;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+#rowBox{
     display:flex;
     justify-content: space-between;
-    background: blue;
-    width:200px;
+    background: #0398fc;
     padding:20px;
-}
-.main{
-    display:flex;
-    justify-content: space-around;
-    background: blue;
-    height:200px;
-    align-items: center;
-    margin-bottom: 15px;
-}
-.title,
-.description,
-.send {
-    background: rgb(135, 135, 201);
-    padding:20px;
-    width:25%;
-    text-align: center;
-}
-.items{
-    background: blue;
-    height:400px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap:25px;
-    padding:50px;
-    margin-bottom: 15px;
-
-}
-.item{
-    background: rgb(135, 135, 201);
-}
-.footer{
-    background: blue;  
-}
-.footer-heading{
-    display:Flex;
-    justify-content: space-between;
-    padding:30px;
     color:white;
-    border:3px solid rgb(135, 135, 201);
+    border:2px solid #9793bd;
 }

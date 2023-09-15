@@ -7,43 +7,35 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <div class="logo">Logo</div>
-            <div class="search-box">
-                <div class="axtar">Axtar...</div>
-                <div class="search">Search</div>
-            </div>
-        </div>
-        <div class="main">
-            <div class="title">Title</div>
-            <div class="description">Description</div>
-            <div class="send">Send</div>
-        </div>
-        <div class="items">
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-        </div>
-        <div class="footer">
-            <div class="footer-heading">
-                <div class="html-elements">Html elements</div>
-                <div class="description-box">Description...</div>
-                <div class="remove-button">
-                    <button>Remove</button>
-                </div>
-            </div>
-            <div class="footer-content"></div>
-            <div class="footer-content"></div>
-            <div class="footer-content"></div>
-            <div class="footer-content"></div>
+    <div class="header">
+        <div class="logo"> <h2>Logo</h2></div>
+        <div class="search-area">
+            <input type="text" placeholder="Axtar" id="axtar">
+            <button>Search</button>
         </div>
     </div>
-    <script src="./app.js"></script>
+    <div class="send">
+        <div class="send__input">
+        <input type="text" placeholder="Title" id="title">
+        </div>
+        <div class="send__text--area">
+        <textarea placeholder="Description" id="desc"></textarea>
+        </div>
+        <div class="send__button">
+        <button id="send">Send</button>
+        </div>
+    </div>
+    <div class="itemsBox"></div>
+    <div id = "rowBox"> 
+        <div id="htmlElements"><h3>Html elements</h3>
+        </div>
+        <div id="remove__text--area">
+           <h3>Description</h3>
+        </div>
+        <div id="remove">
+            <button>Remove</button>
+        </div>
+    </div>
+    <Script src="./app.js"></Script>
 </body>
 </html>
