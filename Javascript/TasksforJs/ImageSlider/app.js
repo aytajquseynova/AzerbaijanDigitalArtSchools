@@ -1,5 +1,5 @@
 let slider_img = document.querySelector('.slider-img');
-let images = ['1.jpg', '2.jpg', '3.jpg'];
+let images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'];
 let i = 0;
 
 let prevButton = document.getElementById('prev');
