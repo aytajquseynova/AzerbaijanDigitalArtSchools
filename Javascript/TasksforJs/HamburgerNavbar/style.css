@@ -1,26 +1,48 @@
-#navbarMenu{
-    display:flex;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 24px;
+    color: #2c6e3b;
+}
+
+#navbarMenu {
+    display: flex;
     justify-content: space-between;
+    padding: 20px;
+    background-color: #8ac74b;
 }
-#logo h1{
-    text-align: center;
-}
-#menu-items{
+
+#logoAndItems {
     display: flex;
-    text-align: center;
+    gap: 50px;
+    justify-content: center;
 }
-#menu-items-list{
+
+ul {
     display: flex;
-}
-li{
     list-style-type: none;
-    text-align: center;
-    font-size: 24px;
-    margin:5px;
+    margin-left: 10px;
 }
-i{
-    font-size: 24px;
+#list-item {
+    margin-left: 10px;
 }
-#menu-list {
-    padding:5px;
+#hamburger, #x{
+    display: none;
+    cursor: pointer;
+}
+#toggle{
+    position: fixed;
+    right: 15px;;
+
+}
+@media only screen and (max-width: 400px){
+    #hamburger{
+        display: block;
+    }
+    #items{
+        display: none;
+    }
 }
