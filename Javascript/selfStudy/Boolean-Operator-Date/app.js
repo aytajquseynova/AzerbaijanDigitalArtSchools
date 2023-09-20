@@ -44,7 +44,7 @@
 // getMonth 0-11 arasi , getTime (millisecond since Jan 1, 1970)
 //Getday 0-6 hefte gunu
 
-let now = new Date();
+// let now = new Date();
 // console.log(now);
 
 // console.log(now.getFullYear()); // hal hazirdaki il
@@ -89,5 +89,14 @@ let now = new Date();
 // console.log(humanReadableDate);
 
 
+const now = new Date();
+const year = now.getFullYear() ;
+const month = now.getMonth() +1;
+const day = now.getDate();
+const hour = now.getHours();
+const minute = now.getMinutes();
+console.log(`${year}-${month}-${day} ${hour}:${minute}`)
+console.log(`${day}-${month}-${year} ${hour}:${minute}`)
+console.log(`${day}/${month}/${year} ${hour}:${minute}`)
 
 
