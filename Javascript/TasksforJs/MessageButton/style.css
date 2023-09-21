@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+}
+#messageButton{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+}
+#click{
+    color: #90ccc6;
+    background-color: #b24d8b;
+    padding: 50px;
+    outline:none;
+    border: none;
+    border-radius:50px;
+    font-size:24px;
+    cursor: pointer;
+ 
+}
+#modalBox{
+    width:800px;
+    height:600px;
+    color:white;
+    background-color: #dd086d;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+i{
+    font-size:24px;
+    position:absolute;
+    right:15px;
+    top:15px;
+    cursor: pointer;
+    color:red;
+}
+.slider {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    width: 100%;
+}
+
+.img-box {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.img-box img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+button {
+    border: none;
+    outline: none;
+    margin: 10 px auto;
+    padding: 5px 10px;
+    font-size: 20px;
+    background: #bd021b;
+    cursor: pointer;
+    color: #d58cc9;
+}
+
+button:hover {
+    background-color: #8c7865;
+    color: #d58cc9;
+}

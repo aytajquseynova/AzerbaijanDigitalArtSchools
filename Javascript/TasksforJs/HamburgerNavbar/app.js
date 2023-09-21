@@ -10,12 +10,13 @@ hamburger.addEventListener('click', function(){
     let ul = document.getElementById('list');
     ul.style.gap ="30px";
     ul.style.marginLeft ="0px";
+    ul.style.flexDirection ="column";
     let navbarMenu = document.getElementById('navbarMenu');
     navbarMenu.style.flexDirection ="column";
     navbarMenu.style.gap = "5px";
-    let listItem = document.getElementById('list-item');
-    listItem.style.marginLeft ="0px";
-
+    let logo = document.getElementById('logo');
+    logo.style.marginLeft ="10px";
+    logo.style.marginBottom ="30px";
     x.addEventListener('click', function(){
         hamburger.style.display ="block";
         items.style.display ="none";
